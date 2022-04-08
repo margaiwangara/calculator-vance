@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main id="wrapper">
+      <section class="box appliances">
+        <h4 class="box-title">Appliances</h4>
+        <div class="input-box">
+          <input type="text" class="input" />
+          <button class="btn btn-primary">Search</button>
+        </div>
+        <div class="appliances-container">
+          <button class="appliance-container">
+            <div class="appliance"></div>
+            <h5 class="text-sm">Air Conditioner</h5>
+          </button>
+        </div>
+      </section>
+      <section class="box playground">
+        <section class="box-title-container">
+          <h4 class="box-title">My Appliances</h4>
+          <button class="btn btn-primary" type="button">Clear</button>
+        </section>
+        <div class="appliances-container">
+          <button class="appliance-container" type="button">
+            <div class="appliance">
+              <span class="del-btn">&times;</span>
+            </div>
+            <h5 class="text-sm">Air Conditioner</h5>
+          </button>
+        </div>
+      </section>
+      <section class="box info">
+        <h4 class="box-title">Info</h4>
+        <section class="info-inner">
+          <div class="appliance"></div>
+          <div class="appliance-badge">Air Conditioner</div>
+          <div class="specs-box">
+            <h6 class="title">Specification</h6>
+            <div class="specs">
+              <span>Power:</span>
+              <span class="specs-value"> 1515 </span>
+              <span>W</span>
+            </div>
+            <div class="specs">
+              <span>Current:</span>
+              <span class="specs-value"> 13.75 </span>
+              <span>A</span>
+            </div>
+            <div class="specs">
+              <span>Voltage:</span>
+              <span class="specs-value"> 110 </span>
+              <span>V</span>
+            </div>
+          </div>
+          <div class="specs-box">
+            <div class="specs">
+              <span>Amount:</span>
+              <span class="specs-value">4</span>
+            </div>
+          </div>
+          <div class="specs-box">
+            <div class="specs">
+              <span>Hours Per Day:</span>
+              <span class="specs-value">1</span>
+            </div>
+          </div>
+          <div class="specs-box">
+            <div class="specs">
+              <span>Days Of Off-Grid:</span>
+              <span class="specs-value">1</span>
+            </div>
+            <div class="specs total-specs">
+              <span>Total Power Consumption:</span>
+              <span class="total">15120 Wh</span>
+            </div>
+            <div class="specs">
+              <ul class="list-of-items">
+                <li>
+                  <span>Air Conditioner - </span>
+                  <span>3000 Wh</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
